@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "client": "npm run dev --prefix client",
+    "dev:all": "concurrently \"npm run dev\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
+    "concurrently": "^9.2.0",
     "eslint": "^9.32.0",
     "nodemon": "^3.1.10"
   }

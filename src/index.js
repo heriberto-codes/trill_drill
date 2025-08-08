@@ -14,8 +14,8 @@ const app = express()
 app.use(express.json())
 
 // routes 
-app.use("/health", healthRouter)
-app.use("/stock", stockRouter)
+app.use("/api/health", healthRouter)
+app.use("/api/stock", stockRouter)
 
 // start up server
 const port = process.env.PORT || 3000;
