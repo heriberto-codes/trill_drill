@@ -15,7 +15,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@sentry/node": "^10.2.0",
     "dotenv": "^17.2.1",
+    "@sentry/node": "^7.25.0",
+    "@sentry/tracing": "^7.25.0",
     "express": "^5.1.0",
     "recharts": "^3.1.2"
   },
