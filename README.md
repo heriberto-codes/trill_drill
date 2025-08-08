@@ -1,5 +1,5 @@
 # trill_drill
-Trillium Second-Round Interview Prep Stock App
+Trillium mock stock app
 
 ## Overview
 This is a simple full-stack demo application that fetches intraday stock data from Alpha Vantage and presents it via a React/Vite frontend with interactive charts.
